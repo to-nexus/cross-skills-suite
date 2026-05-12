@@ -1,0 +1,234 @@
+{
+  "name": "cross-skills-suite",
+  "metadata": {
+    "description": "CROSS Chain (id 612055) ecosystem skill suite — DEX, Prediction Market, Rewards staking, and more, driven by natural language."
+  },
+  "owner": {
+    "name": "to-nexus"
+  },
+  "plugins": [
+    {
+      "name": "cross-dex-trade",
+      "description": "CROSS Chain Gametoken orderbook DEX trading via EOA + viem. Optionally dispatched through an OpenClaw agent.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-dex-trade"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-dex-trade",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "dex",
+        "gametoken",
+        "openclaw",
+        "evm",
+        "trading"
+      ]
+    },
+    {
+      "name": "cross-prediction",
+      "description": "CROSS Prediction Market (prediction.crossdefi.io) — list events, inspect markets, trade YES/NO Shares in BILL via three signing strategies.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-prediction"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-prediction",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "prediction-market",
+        "ctf",
+        "bill",
+        "crossdefi"
+      ]
+    },
+    {
+      "name": "cross-crossd",
+      "description": "CrossDefi swap-bridge driver across BSC (56), CROSS Chain (612055), and Klaytn (8217). Lists pairs, quotes with full fee breakdown, polls status/history, and executes bridges via auto-detected native / EIP-2612 permit / approve+bridgeToken paths.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-crossd"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-crossd",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "bridge",
+        "swap",
+        "crossdefi",
+        "evm",
+        "bsc",
+        "klaytn"
+      ]
+    },
+    {
+      "name": "cross-rewards",
+      "description": "CROSS Chain rewards staking — query the WCROSS pool, deposit/withdraw, and claim multi-token rewards via EOA + viem. Auto-wrap native CROSS with --wrap.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-rewards"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-rewards",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "rewards",
+        "staking",
+        "wcross",
+        "evm",
+        "yield"
+      ]
+    },
+    {
+      "name": "cross-nft",
+      "description": "CROSS NFT marketplace driver — read collections/tokens/listings/offers/activities/stats and execute MarketplaceV1 trades on CROSS Chain (612055).",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-nft"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-nft",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "nft",
+        "marketplace",
+        "crossnft",
+        "evm",
+        "graphql"
+      ]
+    },
+    {
+      "name": "cross-shop",
+      "description": "cross.shop game web-shop driver — browse games (rohan2 / seal-m / rom), list products, and purchase items via on-chain payment escrow.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-shop"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-shop",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "game-shop",
+        "rohan2",
+        "seal-m",
+        "rom",
+        "payment-escrow"
+      ]
+    },
+    {
+      "name": "cross-explorer",
+      "description": "Read-only CROSS Chain explorer driver — Blockscout v2 (crossscan.io) for addresses, txs, tokens, blocks. Mainnet 612055 + testnet 612044.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-explorer"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-explorer",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "explorer",
+        "blockscout",
+        "crossscan",
+        "read-only"
+      ]
+    },
+    {
+      "name": "cross-forge",
+      "description": "CROSS Forge token launch + bonding-curve trade driver — deploy game/AI-agent tokens, create pools, browse trending, quote/buy/sell on the bonding curve, portfolio, activity feed.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-forge"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-forge",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "cross-forge",
+        "token-launch",
+        "bonding-curve",
+        "evm",
+        "verse8",
+        "nexus"
+      ]
+    },
+    {
+      "name": "cross-wave",
+      "description": "CROSS WAVE (wave.crosstoken.io) Streamer-Economy rewards driver — info / missions / campaigns (anon read) + login / referral / submit (paste-token auth) for $CROSS reward missions.",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-wave"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-wave",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "cross-wave",
+        "streamer-economy",
+        "rewards",
+        "missions",
+        "shorts",
+        "nexus"
+      ]
+    },
+    {
+      "name": "cross-stake",
+      "description": "CROSS Mainnet 2.0 native-CROSS staking driver — drives stake.ogfcorp.com via natural language. Single-pool stake/unstake/claimUnstake on chain 612055; posa-api read-path (no auth) for my-delegation/rewards/history/network-stats; 14-day unbonding cooldown surfaced as withdrawAvailableAt. Distinct from cross-rewards (WCROSS rewards-pool stakers).",
+      "source": {
+        "source": "github",
+        "repo": "to-nexus/skill-cross-stake"
+      },
+      "author": {
+        "name": "to-nexus"
+      },
+      "homepage": "https://github.com/to-nexus/skill-cross-stake",
+      "license": "MIT",
+      "category": "blockchain",
+      "tags": [
+        "cross-chain",
+        "cross-mainnet-2.0",
+        "native-staking",
+        "single-pool",
+        "unbonding",
+        "posa-api",
+        "ogf",
+        "nexus"
+      ]
+    }
+  ]
+}

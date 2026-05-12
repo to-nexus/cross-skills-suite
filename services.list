@@ -1,0 +1,14 @@
+# cross-skills-suite — installed by bootstrap.sh
+# Keep in sync with .claude-plugin/marketplace.json (CHECKLIST.md tracks rollout).
+# 10 services published.
+
+https://github.com/to-nexus/skill-cross-dex-trade.git
+https://github.com/to-nexus/skill-cross-prediction.git
+https://github.com/to-nexus/skill-cross-crossd.git
+https://github.com/to-nexus/skill-cross-rewards.git
+https://github.com/to-nexus/skill-cross-nft.git
+https://github.com/to-nexus/skill-cross-shop.git
+https://github.com/to-nexus/skill-cross-explorer.git
+https://github.com/to-nexus/skill-cross-forge.git
+https://github.com/to-nexus/skill-cross-wave.git
+https://github.com/to-nexus/skill-cross-stake.git
