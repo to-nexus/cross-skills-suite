@@ -2,7 +2,7 @@
 
 | # | Service | Repo | SKILL.md | install.sh | marketplace 등록 | 자격증명 | 실행 모드 | OpenClaw | Owner | 출시일 |
 |---|---------|------|----------|-----------|------------------|----------|-----------|----------|-------|--------|
-| 1 | DEX (Gametoken) | ✅ [skill-cross-dex-trade](https://github.com/to-nexus/skill-cross-dex-trade) | ✅ | ✅ | ✅ | EOA `PRIVATE_KEY` | On-chain TX | ✅ | to-nexus | 2026-04-29 |
+| 1 | DEX (GameToken swap + liquidity) | ✅ [skill-cross-dex-trade](https://github.com/to-nexus/skill-cross-dex-trade) | ✅ | ✅ | ✅ | EOA `PRIVATE_KEY` | API quote + AMM liquidity quote + On-chain TX | ✅ | to-nexus | 2026-04-29; swap/liquidity migration 2026-06-09 |
 | 2 | Prediction | ✅ [skill-cross-prediction](https://github.com/to-nexus/skill-cross-prediction) | ✅ | ✅ | ✅ | A: `PRIVATE_KEY` / B·C: `PIN`+session | Mixed (TX + UI auto) | — | to-nexus | 2026-04-29 |
 | 3 | Forge | ✅ [skill-cross-forge](https://github.com/to-nexus/skill-cross-forge) | ✅ | ✅ | ✅ | EOA `PRIVATE_KEY` (deploy + trade) | On-chain TX (Builder API + Router) + bonding-curve REST | — | to-nexus | 2026-05-06 (v0.4) |
 | 4 | Bridge (CrossDefi) | ✅ [skill-cross-crossd](https://github.com/to-nexus/skill-cross-crossd) | ✅ | ✅ | ✅ | EOA `PRIVATE_KEY` (read-path needs none) | On-chain TX (native / approve) + offline EIP-712 (permit) | — | to-nexus | 2026-04-30 |

@@ -87,7 +87,7 @@ Then drive it via Claude with phrases like *"openclaw로 RUBYx 10개 매수해�
 
 | # | Service | Repo | Description |
 |---|---------|------|-------------|
-| 1 | **DEX (Gametoken)** | [skill-cross-dex-trade](https://github.com/to-nexus/skill-cross-dex-trade) | Game token orderbook trading (limit buy/sell, cancel, balance, pair listing) |
+| 1 | **DEX (GameToken)** | [skill-cross-dex-trade](https://github.com/to-nexus/skill-cross-dex-trade) | GameToken AMM info, trading, and liquidity — tokens, token-info, pairs, quote, buy, buy-exact, sell, deposit, withdraw, balance |
 | 2 | **Prediction** | [skill-cross-prediction](https://github.com/to-nexus/skill-cross-prediction) | YES/NO Share trading on `prediction.crossdefi.io` via 3 signing strategies |
 | 4 | **Bridge (CrossDefi)** | [skill-cross-crossd](https://github.com/to-nexus/skill-cross-crossd) | Swap-bridge across BSC / CROSS Chain / Klaytn — pairs, quote with fees, native / EIP-2612 permit / approve+bridgeToken auto-dispatch |
 | 5 | **Rewards** | [skill-cross-rewards](https://github.com/to-nexus/skill-cross-rewards) | WCROSS staking — pool query, deposit (with optional native→WCROSS wrap), withdraw, multi-token harvest |
@@ -107,10 +107,14 @@ All 10 services in the suite are published. See [CHECKLIST.md](./CHECKLIST.md) f
 After installing one or more skills, just describe in natural language:
 
 ```
-buy 31 RUBYx at 0.128 CROSS
+quote 1 CROSS worth of RUBYx
+buy 1 CROSS worth of RUBYx
+buy exactly 10 RUBYx
+sell 10 RUBYx
 show CROSS balance
-list active gametoken pairs
-cancel order 12345 on RUBYx
+list active GameToken pairs
+quote depositing 1 CROSS into the RUBYx pool
+withdraw 0.5 RUBYx LP
 
 list active prediction events
 BTC 1분 예측 이벤트 찾아줘
